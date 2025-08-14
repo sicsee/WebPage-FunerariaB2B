@@ -1,0 +1,60 @@
+.hero {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  padding: 48px 24px;
+}
+
+.hero-card {
+  width: 60%;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 0.8)
+  );
+  padding: 28px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.06);
+}
+
+.hero-card h1 {
+  margin: 0 0 12px;
+  font-size: 28px;
+}
+
+.hero-text {
+  margin: 0 0 18px;
+  color: var(--muted);
+}
+
+.hero-cta {
+  display: flex;
+  gap: 12px;
+}
+
+.hero-bottom {
+  margin-top: 20px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.hero-bottom p {
+  font-size: 13px;
+  color: var(--cinza);
+}
+
+.hero-bottom hr {
+  width: 2px;
+  height: 15px;
+  color: var(--azul-marinho);
+}
+
+.hero-image {
+  width: 55.065%;
+}
+
+.hero-image img {
+  width: 100%;
+  border-radius: 10px;
+}
